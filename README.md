@@ -87,7 +87,7 @@ GPU が無い環境では Cell 2 の `CUDA_VISIBLE_DEVICES` 指定を外し、`D
 - 推論判定: `sigmoid(logits) > 0.5`
 - ONNX 出力: **logits のまま (sigmoid は含めない)**。後段で閾値を変えられるように意図的に分離している。
 
-## 結果と考察
+<!-- ## 結果と考察 -->
 
 
 
